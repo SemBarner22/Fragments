@@ -12,6 +12,7 @@
             app:destination="@id/dictFragment" />
         <argument
             android:name="count"
-            app:argType="integer" />
+            app:argType="integer"
+            android:defaultValue="0"/>
     </fragment>
 </navigation>
