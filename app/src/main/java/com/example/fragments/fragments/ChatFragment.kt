@@ -22,6 +22,9 @@ class ChatFragment : Fragment() {
         return view
     }
 
+
+
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         numb.text = ChatFragmentArgs.fromBundle(requireArguments()).count.toString()
